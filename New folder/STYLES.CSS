@@ -1,0 +1,10 @@
+fun init(){
+    scores [0, 0]
+    act.p = 0
+    round.s = 0
+    doc.que(.dice).style.display = 'none'
+
+}
+do.qwsel('btnnew').addeve(click, init)
+
+init()
